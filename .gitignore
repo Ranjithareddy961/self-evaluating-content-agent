@@ -1,0 +1,10 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*.db
+outputs/
+
+# Runtime memory
+data/memory.json

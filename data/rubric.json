@@ -1,0 +1,43 @@
+{
+  "rubric_name": "Beginner RAG Lesson Quality Rubric",
+  "version": "1.0",
+  "evaluation_policy": "All criteria are hard pass/fail checks. A single failed criterion causes overall rejection.",
+  "criteria": [
+    {
+      "id": "accuracy",
+      "name": "Accuracy and Grounding",
+      "description": "The lesson must explain RAG accurately and must not contain major factual errors.",
+      "pass_condition": "All factual claims about RAG are consistent with the trusted reference."
+    },
+    {
+      "id": "beginner_friendly",
+      "name": "Beginner Friendly Language",
+      "description": "The lesson must be understandable to a learner with no prior AI background.",
+      "pass_condition": "Uses simple English, short explanations, and introduces concepts from zero."
+    },
+    {
+      "id": "key_concepts",
+      "name": "Key Concept Coverage",
+      "description": "The lesson must cover the fundamental ideas required to understand RAG.",
+      "pass_condition": "Explains what RAG is, why it matters, retrieval, context, generation, workflow, example, and limitations."
+    },
+    {
+      "id": "jargon_control",
+      "name": "Jargon Control",
+      "description": "Technical terminology must not be used without explanation.",
+      "pass_condition": "Important technical terms are explained in simple language before or when they are introduced."
+    },
+    {
+      "id": "examples",
+      "name": "Learning by Example",
+      "description": "The lesson must teach the concept using a concrete beginner-friendly example.",
+      "pass_condition": "Contains at least one realistic example that connects RAG to a familiar situation."
+    },
+    {
+      "id": "coherence",
+      "name": "Teaching Flow",
+      "description": "The lesson must follow a logical teaching sequence.",
+      "pass_condition": "Moves logically from the problem to the concept, process, example, limitations, and summary."
+    }
+  ]
+}
